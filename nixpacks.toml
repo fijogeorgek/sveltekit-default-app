@@ -1,8 +1,14 @@
-[phases.build]
-cmds = ["npm ci", "npm run build"]
+[phases.setup]
+nixPkgs = ["nodejs-22_x", "npm-11_x"]
 
-[phases.start]
-cmd = "node build"
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = ["npm run build"]
 
 [variables]
 NODE_ENV = "production"
+
+[start]
+cmd = "node build/index.js"
