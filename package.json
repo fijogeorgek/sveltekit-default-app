@@ -23,7 +23,7 @@
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/adapter-node": "^5.2.14",
 		"@sveltejs/kit": "^2.22.0",
-		"@sveltejs/vite-plugin-svelte": "^6.0.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.0.0",
 		"@types/node": "^22",
 		"drizzle-kit": "^0.30.2",
@@ -46,3 +46,4 @@
 		"postgres": "^3.4.5"
 	}
 }
+
